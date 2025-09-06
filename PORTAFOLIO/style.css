@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 *{
     padding: 0;
@@ -19,12 +19,15 @@ body {
 .presentacion{
     display: flex;
     align-items: center;
-    margin: 10%;
+    margin: 10% 15%;
     justify-content: space-between;
 }
 
 .presentacion__contenido{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .presentacion__contenido__titulo{
