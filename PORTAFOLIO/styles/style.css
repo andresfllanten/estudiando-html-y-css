@@ -25,12 +25,13 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .presentacion{
     display: flex;
     align-items: center;
-    padding: 7% 15%;
+    padding: 6% 15%;
     justify-content: space-between;
 }
 
